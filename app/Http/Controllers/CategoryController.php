@@ -24,4 +24,4 @@ class CategoryController extends Controller
     }
 }
 
-// proekti gowy edip bilmedim
+// mollim
