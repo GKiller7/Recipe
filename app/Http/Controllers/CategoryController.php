@@ -24,4 +24,4 @@ class CategoryController extends Controller
     }
 }
 
-// sennen yana seydip otirn
+// 20 commit nama gerek :[
