@@ -24,4 +24,4 @@ class CategoryController extends Controller
     }
 }
 
-// saaaalaaam molllim commitler bet gerek
+// eydip beydip 20 commit etmelida
