@@ -24,4 +24,4 @@ class CategoryController extends Controller
     }
 }
 
-// eydip beydip 20 commit etmelida
+// proekti
