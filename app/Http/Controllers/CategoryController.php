@@ -24,4 +24,4 @@ class CategoryController extends Controller
     }
 }
 
-// hemme sennenda how molliiim
+// sennen yana seydip otirn
