@@ -1,16 +1,19 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Recipe;
+use http\Env\Request;
 use Illuminate\Routing\Controller;
 
 class CategoryController extends Controller
 {
     public function index()
     {
-        $categories = Category::all();
+        $categories = Category::get();
         return view('category', compact('categories'));
+
     }
 
     public function show($id)

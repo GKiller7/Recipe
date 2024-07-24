@@ -1,9 +1,8 @@
 <?php
 
-use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Admin\RecipeController;
-use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\RecipeController;
+use App\Http\Controllers\CategoryController;
 
 Route::get('/', function () {
     return view('home');

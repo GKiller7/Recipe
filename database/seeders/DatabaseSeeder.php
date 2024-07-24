@@ -14,7 +14,6 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // User::factory(10)->create();
 
         User::factory()->create([
             'name' => 'Test User',
@@ -26,12 +25,7 @@ class DatabaseSeeder extends Seeder
             FoodSeeder::class,
         ]);
 
-        // Kalan modeller için factory'leri çalıştıralım
         Ingredient::factory(20)->create();
-        Recipe::factory(50)
-            ->has(Step::factory()->count(5))
-            ->has(Rating::factory()->count(3))
-            ->create();
 
         User::factory(10)->create()->each(function ($user) {
             $user->favorites()->attach(Recipe::inRandomOrder()->take(rand(1, 5))->pluck('id'));

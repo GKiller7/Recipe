@@ -70,7 +70,7 @@ class FoodSeeder extends Seeder
                     'category_id' => $categoryId,
                     'name' => $recipe['name'],
                     'image' => $recipe['image'],
-                    'description' => $faker->paragraph(rand(3, 5)),
+                    'description' => $faker->paragraph(rand(2, 3)),
                 ]);
             }
         }
