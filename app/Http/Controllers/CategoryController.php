@@ -23,3 +23,5 @@ class CategoryController extends Controller
         return view('category_show', compact('category', 'recipes'));
     }
 }
+
+// saaaalaaam molllim commitler bet gerek
